@@ -43,7 +43,8 @@
     body { background-color: var(--bg); color: var(--text-main); font-family: 'Inter', sans-serif; height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
     body { cursor: none; }
     body.mode-ventures { cursor: auto !important; }
-    body.mode-ventures .header, body.mode-ventures .header * { cursor: none !important; }
+    body.mode-ventures .header { cursor: auto !important; }
+    body.mode-ventures .header *, body.mode-ventures .theme-toggle, body.mode-ventures .lang-toggle, body.mode-ventures .nav-btn, body.mode-ventures .icon-btn { cursor: pointer !important; }
     a, button, .nav-btn, .icon-btn, .cta-btn, .flip-card { cursor: none !important; }
     body.mode-ventures a, body.mode-ventures button, body.mode-ventures .nav-btn, body.mode-ventures .icon-btn { cursor: pointer !important; }
     body.mode-exp { cursor: none !important; }
